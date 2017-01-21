@@ -39,7 +39,7 @@ To make the element stick within a certain offset of the top of the screen, you 
 ```html
     <div sticky offset="100"> I won't touch the top of your screen! </div>
 ```
-To specifiy a child element to actually apply the stickiness to, use the attribute sticky-target-element. This is useful when you are using a UI toolkit that creates intermediary elements when compiled, for example Material Angular. 
+To specifiy a child element to actually apply the stickiness to, use the attribute sticky-target-element. This is useful when you are using a UI toolkit that creates intermediary elements when compiled, for example Angular Material. 
    ```html
       <md-tabs sticky sticky-target-element="md-tabs-wrapper" sticky-class="stuck-tabs">
    ```
